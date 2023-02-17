@@ -7,6 +7,6 @@
 int main(void)
 {
 	fputs("and that piece of art is useful\" - ", stderr);
-	fputs("Do101-quote.cra Korpar, 2015-10-19\n", stderr);
+	fputs("Dora Korpar, 2015-10-19\n", stderr);
 return (1);
 }
