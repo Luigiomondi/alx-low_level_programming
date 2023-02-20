@@ -15,13 +15,18 @@ int main(void)
         {
             if (j != i)
             {
-                putchar(i + '0');
-                putchar(j + '0');
-                putchar((i == 8 && j == 9) ? '\n' : ',');
-                putchar((i == 8 && j == 9) ? 0 : ' ');
+                putchar(i * 10 + j + '0');
+
+                if (i != 8 || j != 9)
+                {
+                    putchar(',');
+                    putchar(' ');
+                }
             }
         }
     }
+
+    putchar('\n');
 
     return (0);
 }
