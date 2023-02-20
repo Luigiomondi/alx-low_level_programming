@@ -15,7 +15,7 @@ int main(void)
     {
 	    if ((c != 'q' && c != 'e') && c <= 'z')
 	{
-		putchar(c)
+		putchar(c);
 	}
 	c++;
     }
